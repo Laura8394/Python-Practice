@@ -6,7 +6,7 @@ Created on Thu May 17 17:11:04 2018
 """
 import math
 
-r = 2
+r = int(input("Enter the radius: "))
 s = math.pi * r ** 2
 f = math.pi * r * 2
 print("The CircleFerence Is: {: .10f}".format(f))
